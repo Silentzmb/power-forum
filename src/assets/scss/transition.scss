@@ -1,0 +1,15 @@
+/*up-down-transform*/
+.up-down-transform-leave-active,
+.up-down-transform-enter-active {
+  transition: opacity .5s, transform .5s;
+}
+
+.up-down-transform-enter {
+  opacity: 0;
+  transform: translateY(-10vh);
+}
+
+.up-down-transform-leave-to {
+  opacity: 0;
+  transform: translateY(-10vh);
+}
